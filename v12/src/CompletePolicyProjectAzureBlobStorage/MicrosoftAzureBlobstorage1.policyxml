@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policies>
+  <policy policyType="azureblobstorage" policyName="MicrosoftAzureBlobstorage1" policyTemplate="">
+    <applicationType>online</applicationType>
+    <applicationVersion>v1</applicationVersion>
+    <authorizationMethod>BASIC_API_KEY</authorizationMethod>
+    <accountName>REPLACE_WITH_YOUR_STORAGE_ACCOUNT_NAME</accountName>
+    <credentialName>CompletePolicyProjectAzureBlobStorage_MicrosoftAzureBlobstorage1</credentialName>
+    <tenantId></tenantId>
+  </policy>
+</policies>

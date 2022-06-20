@@ -1,0 +1,86 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "items": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "displayOrder": 1,
+        "title": "Container name",
+        "type": "string"
+      },
+      "properties": {
+        "displayOrder": 10,
+        "title": "Properties",
+        "type": "object",
+        "properties": {
+          "etag": {
+            "displayOrder": 1,
+            "title": "ETag",
+            "type": "string"
+          },
+          "lastModified": {
+            "displayOrder": 2,
+            "title": "Last modified",
+            "type": "string",
+            "format": "date-time"
+          },
+          "leaseState": {
+            "displayOrder": 3,
+            "title": "Lease state",
+            "type": "string"
+          },
+          "leaseStatus": {
+            "displayOrder": 4,
+            "title": "Lease status",
+            "type": "string"
+          },
+          "clientRequestId": {
+            "displayOrder": 5,
+            "title": "Client request ID",
+            "type": "string"
+          },
+          "hasImmutabilityPolicy": {
+            "displayOrder": 6,
+            "title": "Has immutability policy",
+            "type": "boolean"
+          },
+          "hasLegalHold": {
+            "displayOrder": 7,
+            "title": "Has legal hold",
+            "type": "boolean"
+          },
+          "requestId": {
+            "displayOrder": 8,
+            "title": "Request ID",
+            "type": "string"
+          },
+          "defaultEncryptionScope": {
+            "displayOrder": 9,
+            "title": "Default encryption scope",
+            "type": "string",
+            "format": "date-time"
+          },
+          "denyEncryptionScopeOverride": {
+            "displayOrder": 10,
+            "title": "Deny encryption scope override",
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
+      "metadata": {
+        "displayOrder": 4,
+        "title": "Metadata",
+        "type": "object"
+      },
+      "version": {
+        "displayOrder": 4,
+        "title": "Version",
+        "type": "string"
+      }
+    },
+    "title": "container"
+  },
+  "type": "array",
+  "title": "container"
+}
